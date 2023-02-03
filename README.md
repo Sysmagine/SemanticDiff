@@ -49,3 +49,7 @@ To help us understand your proposal, please share:
 ## Questions and Discussions
 
 If you have a question regarding the use of SemanticDiff or if you would like to participate in discussions and polls, check our [discussions](https://github.com/Sysmagine/SemanticDiff/discussions) page. We look forward to welcoming you to our community. 😊️
+
+
+---
+*SemanticDiff is a product by Sysmagine GmbH based in Heidelberg, Germany ([Impressum](https://semanticdiff.com/impressum/)).*
