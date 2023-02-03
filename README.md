@@ -2,24 +2,50 @@
 
 > SemanticDiff is a programming language aware diff for Visual Studio Code. It helps you understand code changes faster by removing noise and adding useful annotations.
 
-This repository is mainly used for community discussions and bug reports. If you want to know more about the extension, visit [semanticdiff.com](https://semanticdiff.com).
+This repository is mainly used for bug reports and community discussions. If you want to learn more about the extension, visit [semanticdiff.com](https://semanticdiff.com) or our [Visual Studio marketplace page](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff).
 
 ![Visualization of SemanticDiff](hero.png)
 
-## Reporting Issues
+## Contents
 
-If you encounter a bug while using SemanticDiff (the online demo or the VS code extension), please create a new issue with the following information:
+* [Reporting Bugs](#reporting-bugs)
+  - [Sharing of Source Code in a Bug Report](#sharing-of-source-code-in-a-bug-report)
+* [Requesting Features](#requesting-features)
+* [Questions and Discussions](#questions-and-discussions)
+
+## Reporting Bugs
+
+If you encounter a bug while using the SemanticDiff Visual Studio Code extension, please let us know!
+
+Before opening a bug report, please make sure that you are using the latest version of SemanticDiff from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff) and that noone else has reported the same issue before.
+
+To open a bug report, go to our [issues](https://github.com/Sysmagine/SemanticDiff/issues) page, click on `New Issue` and select the `Bug Report` template. Please fill in as much information as possible, in particular make sure to include:
 
 * A short, descriptive title
-* A description of what you think is broken (ideally with a screenshot)
 * Steps how you triggered the bug
-* Information about your VS Code version, if applicable: `Help -> About -> Copy`
+* A description of what you think is broken (ideally with a screenshot)
+* Information about your SemanticDiff and VS Code version
 
-For issues related to the visual diff also include:
-* The old and new source code files triggering the issue (as text, not as screenshot)
+If the bug is related to the diff of a specific source code, make sure to also include the old and new source code files.
 
-## Sharing of Source Code
+### Sharing of Source Code in a Bug Report
 
-Fixing an issue that we can not reproduce is incredible hard. We therefore may need a copy of the old and new code that triggered your issue.
+❗️ **Ensure that you are legally authorized to share the source code before you proceed!**
 
-If you can't share the entire old and new file, we suggest creating a minimal example by removing everything not in proximity to the bug. You can use our [online demo](https://semanticdiff.com/#demo) to verify that your example still reproduces the issue.
+Please always include source code as text, **not as a screenshot**! If your code is too large for a snippet, you can either attach it as a file (you may need to change the file extensions to .txt) or link to the files (e.g. using a [GitHub Gist](https://gist.github.com/)).
+
+If you can't share the entire old and new file, we suggest creating a minimal example. Copy the old and new content into separate files and remove everything not in proximity to the bug. Please make sure that the issue can still be reproduced with your stripped down source code. You can do this in VS Code by right-clicking on the old file, then clicking on `Select for Compare`. Afterwards right-click on the new file and click on `Compare With Selected`. Now switch to SemanticDiff by clicking on the icon in the top right corner and verify that the bug is still reproducible.
+
+## Requesting Features
+
+We are also very happy to receive ideas on how we can make SemanticDiff even better. To submit a feature request, go to our [issues](https://github.com/Sysmagine/SemanticDiff/issues) page, click on `New Issue` and select the `Feature Request` template.
+
+To help us understand your proposal, please share:
+
+* If your feature is related to a specific problem you're trying to solve
+* What your ideal solution would look like
+* And if there are any alternatives to the feature you propose. E.g., if its related to the problem, are there any workarounds? Are there less generic solutions that would also solve the issue? Etc.
+
+## Questions and Discussions
+
+If you have a question regarding the use of SemanticDiff or if you would like to participate in discussions and polls, check our [discussions](https://github.com/Sysmagine/SemanticDiff/discussions) page. We look forward to welcoming you to our community. 😊️
