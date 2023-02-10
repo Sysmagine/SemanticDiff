@@ -1,10 +1,10 @@
-# ![SemanticDiff](logo.svg) SemanticDiff
+# ![SemanticDiff](images/logo.svg) SemanticDiff
 
 > SemanticDiff is a programming language aware diff for Visual Studio Code. It helps you understand code changes faster by removing noise and adding useful annotations.
 
 This repository is mainly used for bug reports and community discussions. If you want to learn more about the extension, visit [semanticdiff.com](https://semanticdiff.com) or our [Visual Studio marketplace page](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff).
 
-![Visualization of SemanticDiff](hero.png)
+![Usage of SemanticDiff](images/usage.gif)
 
 ## Contents
 
