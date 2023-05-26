@@ -1,6 +1,6 @@
 ---
-name: Bug Report
-about: Create a report to help us improve SemanticDiff
+name: Bug Report (VS Code)
+about: You found a bug in our Visual Studio Code Extension
 title: ''
 labels: bug
 assignees: ''

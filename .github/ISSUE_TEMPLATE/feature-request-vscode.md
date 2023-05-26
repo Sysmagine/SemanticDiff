@@ -1,6 +1,6 @@
 ---
-name: Feature Request
-about: Suggest an idea for SemanticDiff
+name: Feature Request (VS Code)
+about: You would like to suggest an idea for our Visual Studio Code Extension
 title: ''
 labels: enhancement
 assignees: ''
