@@ -1,8 +1,8 @@
 ---
-name: Feature Request (PR Viewer)
-about: You would like to suggest an idea for our pull request viewer (app.semanticdiff.com)
+name: Feature Request (GitHub App)
+about: You would like to suggest an idea for our GitHub App (app.semanticdiff.com)
 title: ''
-labels: enhancement, pr-viewer
+labels: enhancement, github
 assignees: ''
 
 ---

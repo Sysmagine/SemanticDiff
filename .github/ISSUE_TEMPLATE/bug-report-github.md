@@ -1,8 +1,8 @@
 ---
-name: Bug Report (PR Viewer)
-about: You found a bug in our pull request viewer (app.semanticdiff.com)
+name: Bug Report (GitHub App)
+about: You found a bug in our GitHub App (app.semanticdiff.com)
 title: ''
-labels: bug, pr-viewer
+labels: bug, github
 assignees: ''
 
 ---
