@@ -1,8 +1,8 @@
 # ![SemanticDiff](images/logo.svg) SemanticDiff
 
-> SemanticDiff is a programming language aware diff for Visual Studio Code. It helps you understand code changes faster by removing noise and adding useful annotations.
+> SemanticDiff is a programming language aware diff for Visual Studio Code and GitHub. It helps you understand code changes faster by removing noise and adding useful annotations.
 
-This repository is mainly used for bug reports and community discussions. If you want to learn more about the extension, visit [semanticdiff.com](https://semanticdiff.com) or our [Visual Studio marketplace page](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff).
+This repository is mainly used for bug reports and community discussions. If you want to learn more about the VS Code extension or GitHub App, visit [semanticdiff.com](https://semanticdiff.com).
 
 ![Usage of SemanticDiff](images/usage.gif)
 
@@ -14,19 +14,18 @@ This repository is mainly used for bug reports and community discussions. If you
 * [Questions and Discussions](#questions-and-discussions)
 
 ## Reporting Bugs
+If you encounter a bug while using SemanticDiff, please let us know!
 
-If you encounter a bug while using the SemanticDiff Visual Studio Code extension, please let us know!
+Before opening a bug report, please make sure that you are using the latest version of SemanticDiff. In the case of the VS Code extension, check that the version shown in the extenion tab matches the one displayed in the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff). Users of the GitHub App should check if the problem persists after a force reload of the page to rule out issues related to an outdated browser cache.
 
-Before opening a bug report, please make sure that you are using the latest version of SemanticDiff from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff) and that noone else has reported the same issue before.
-
-To open a bug report, go to our [issues](https://github.com/Sysmagine/SemanticDiff/issues) page, click on `New Issue` and select the `Bug Report` template. Please fill in as much information as possible, in particular make sure to include:
+To open a bug report, go to our [issues](https://github.com/Sysmagine/SemanticDiff/issues) page, click `New Issue` and select the `Bug Report (GitHub App)` or `Bug Report (VS Code)` template. Please fill in as much information as possible, especially the following:
 
 * A short, descriptive title
 * Steps how you triggered the bug
 * A description of what you think is broken (ideally with a screenshot)
-* Information about your SemanticDiff and VS Code version
+* (VS Code only): Information about your SemanticDiff and VS Code version
 
-If the bug is related to the diff of a specific source code, make sure to also include the old and new source code files.
+If the bug is related to the diff of a specific source code, be sure to provide the code needed to reproduce the problem. You can either attach the old and new source code files or provide a link to the change in our GitHub App, if the code is publicly accessible.
 
 ### Sharing of Source Code in a Bug Report
 
@@ -34,11 +33,11 @@ If the bug is related to the diff of a specific source code, make sure to also i
 
 Please always include source code as text, **not as a screenshot**! If your code is too large for a snippet, you can either attach it as a file (you may need to change the file extensions to .txt) or link to the files (e.g. using a [GitHub Gist](https://gist.github.com/)).
 
-If you can't share the entire old and new file, we suggest creating a minimal example. Copy the old and new content into separate files and remove everything not in proximity to the bug. Please make sure that the issue can still be reproduced with your stripped down source code. You can do this in VS Code by right-clicking on the old file, then clicking on `Select for Compare`. Afterwards right-click on the new file and click on `Compare With Selected`. Now switch to SemanticDiff by clicking on the icon in the top right corner and verify that the bug is still reproducible.
+If you can't share the entire old and new file, we suggest creating a minimal example. Copy the old and new content into separate files and remove everything not in proximity to the bug. Please make sure that the issue can still be reproduced with your stripped down source code. You can do this with our VS Code extension by right-clicking on the old file, then clicking on `Select for Compare`. Afterwards right-click on the new file and click on `Compare With Selected`. Now switch to SemanticDiff by clicking on the icon in the top right corner and verify that the bug is still reproducible.
 
 ## Requesting Features
 
-We are also very happy to receive ideas on how we can make SemanticDiff even better. To submit a feature request, go to our [issues](https://github.com/Sysmagine/SemanticDiff/issues) page, click on `New Issue` and select the `Feature Request` template.
+We are also very happy to receive ideas on how we can make SemanticDiff even better. To submit a feature request, go to our [issues](https://github.com/Sysmagine/SemanticDiff/issues) page, click on `New Issue` and select the `Feature Request (GitHub App)` or `Feature Request (VS Code)` template.
 
 To help us understand your proposal, please share:
 

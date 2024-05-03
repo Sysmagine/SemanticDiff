@@ -2,7 +2,7 @@
 name: Bug Report (VS Code)
 about: You found a bug in our Visual Studio Code Extension
 title: ''
-labels: bug
+labels: bug, vscode
 assignees: ''
 
 ---
