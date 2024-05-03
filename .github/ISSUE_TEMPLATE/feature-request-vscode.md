@@ -2,7 +2,7 @@
 name: Feature Request (VS Code)
 about: You would like to suggest an idea for our Visual Studio Code Extension
 title: ''
-labels: enhancement
+labels: enhancement, vscode
 assignees: ''
 
 ---
